@@ -21,7 +21,17 @@ export const products: Product[] = [
         id: "3",
         title: "Glumanda",
         price: 200,
+
+        
+    },
+    {
+        id: "4",
+        title: "marcus",
+        price: 0,
+
+        
     }
+
 ]
 
 export default function Products() {
