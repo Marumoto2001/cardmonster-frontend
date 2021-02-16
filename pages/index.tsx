@@ -1,12 +1,8 @@
 export default function Home() {
   return (
-    <h1>Startseite</h1>
-    //<h2>Wilkommen auf Cardmonster hier werden ihere Kartenwünsche wahr!!</h2>
-  )
+      <>
+        <h1>Startseite</h1>
+        <h2>Hall</h2>
+        </>
+    )
 }
-/*export default function Home2() {
-  return (
-    //<h1>Startseite</h1>
-    <h2>Wilkommen auf Cardmonster hier werden ihere Kartenwünsche wahr!!</h2>
-  )
-}*/
