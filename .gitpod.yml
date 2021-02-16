@@ -1,6 +1,8 @@
 image: gitpod/workspace-mongodb
 
 tasks:
+  - init: mongod
+    command: mongo
   - init: yarn && yarn build
     command: yarn dev
 ports:
