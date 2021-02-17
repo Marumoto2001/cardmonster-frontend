@@ -1,0 +1,7 @@
+image: gitpod/workspace-mongodb
+
+tasks:
+  - init: yarn install
+    command: yarn dev
+ports:
+  - port: 3000
